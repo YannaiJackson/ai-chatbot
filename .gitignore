@@ -71,7 +71,6 @@ __pypackages__/
 *.container
 
 # Secrets and environment variables
-*.env
 *.envrc
 .env.local
 .env.test
