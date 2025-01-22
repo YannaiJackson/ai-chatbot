@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+.venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs and debug files
+*.log
+*.out
+*.err
+*.pid
+*.swp
+*.swo
+*.bak
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy type check reports
+.mypy_cache/
+.dmypy.json
+.dmypy
+
+# Pytest cache
+.pytest_cache/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+*.sublime*
+*.swp
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# PEP 582 (Python Modules Directory)
+__pypackages__/
+
+# Docker-related files
+*.dockerfile
+*.container
+
+# Secrets and environment variables
+*.env
+*.envrc
+.env.local
+.env.test
+.env.production
+secrets.json
+
+# Compiled C extensions
+*.so
+
+# Jupyter Notebook output files
+*.nbconvert.ipynb
+
+# Temporary files
+*.tmp
+*.temp
