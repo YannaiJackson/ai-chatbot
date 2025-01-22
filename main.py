@@ -2,14 +2,12 @@ import os
 from groq import Groq
 
 
-# Manually set your API key as an environment variable (or hardcode it here, but not recommended)
-GROQ_API_KEY = "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"
+GROQ_API_KEY = os.getenv('GROQ_API_KEY')
 
-# Ensure the API key is available
+
 if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY not found. Set it using: export GROQ_API_KEY='your-api-key'")
 
-# Initialize the Groq API client
 client = Groq(api_key=GROQ_API_KEY)
 
 
