@@ -47,7 +47,7 @@ Note: Ensure you have created a free GroqAI account to generate your API key.
 
 Simply run the script to start a chat session:
 
-python chat.py  
+python main.py  
 
 Once launched, you can start sending messages, and the AI will respond in real time via the command line.
 
@@ -59,9 +59,6 @@ AI: Hello! How can I assist you today?
 > What's the weather like today?  
 AI: I'm an AI assistant, so I don't have real-time data, but I can guide you to find it online!  
 
-## **Configuration**
-
-Modify the config.json file (if applicable) to customize chat settings such as API endpoints, response formats, and more.
 
 ## **Contributing**
 
