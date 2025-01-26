@@ -36,18 +36,15 @@ To use this project, you'll need to:
    ```bash
    cd groqai-chat-cli  
 
-
 3. Install dependencies:
    
    ```bash
    pip install -r requirements.txt  
 
-
 4. Set up your API key (obtained from your GroqAI account):
    
     ```bash
     export GROQ_API_KEY=your_api_key_here  
-
 
 Note: Ensure you have created a free GroqAI account to generate your API key.
 
