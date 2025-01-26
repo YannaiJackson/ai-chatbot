@@ -25,18 +25,23 @@ To use this project, you'll need to:
 
 ## **Installation**
 
-1. Clone the repository:  
+1. Clone the repository:
+   
    ```bash  
-   git clone https://github.com/your-username/groqai-chat-cli.git  
+   git clone https://github.com/your-username/groqai-chat-cli.git
+   
 2. Navigate to directory:
+   
    ```bash
    cd groqai-chat-cli  
 
-4. Install dependencies:
+3. Install dependencies:
+   
    ```bash
    pip install -r requirements.txt  
 
-5. Set up your API key (obtained from your GroqAI account):
+4. Set up your API key (obtained from your GroqAI account):
+   
     ```bash
     export GROQ_API_KEY=your_api_key_here  
 
