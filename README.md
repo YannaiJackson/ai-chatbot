@@ -50,10 +50,9 @@ Note: Ensure you have created a free GroqAI account to generate your API key.
 ## **Usage**
 
 Simply run the script to start a chat session:
-
-	```bash
- 	python main.py  
-
+   ```bash
+   python main.py
+```
 Once launched, you can start sending messages, and the AI will respond in real time via the command line.
 
 ## **Example Interaction**
