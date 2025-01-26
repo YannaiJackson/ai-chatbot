@@ -30,15 +30,14 @@ To use this project, you'll need to:
    git clone https://github.com/your-username/groqai-chat-cli.git  
    cd groqai-chat-cli  
 
-	2.	Install dependencies:
+2.	Install dependencies:
+	```bash
+	pip install -r requirements.txt  
 
-pip install -r requirements.txt  
+3.	Set up your API key (obtained from your GroqAI account):
 
-
-	3.	Set up your API key (obtained from your GroqAI account):
-
-export GROQ_API_KEY=your_api_key_here  
-
+	```bash
+ 	export GROQ_API_KEY=your_api_key_here  
 
 
 Note: Ensure you have created a free GroqAI account to generate your API key.
@@ -47,7 +46,8 @@ Note: Ensure you have created a free GroqAI account to generate your API key.
 
 Simply run the script to start a chat session:
 
-python main.py  
+	```bash
+ 	python main.py  
 
 Once launched, you can start sending messages, and the AI will respond in real time via the command line.
 
