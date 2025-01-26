@@ -30,7 +30,6 @@ To use this project, you'll need to:
    ```bash  
    git clone https://github.com/your-username/groqai-chat-cli.git
 
-   
 2. Navigate to directory:
    
    ```bash
